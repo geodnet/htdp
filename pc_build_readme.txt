@@ -26,3 +26,7 @@ $ export PATH=$PATH:/c/msys2/mingw32/bin
 Run compiler with following command:
 [user computer] MSYS /c/temp/htdp
 $ gfortran -DNGS_PC_ENV -static -m32 -Wall -Wtabs *.f -o htdp
+
+In ubuntu
+sudo apt install gfortran
+make
